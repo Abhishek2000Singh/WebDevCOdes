@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Ecommerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Our Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link" data-category="all">Home</a></li>
+                    <li><a href="#" class="nav-link" data-category="electronics">Electronics</a></li>
+                    <li><a href="#" class="nav-link" data-category="clothing">Clothing</a></li>
+                    <li><a href="#" class="nav-link" data-category="books">Books</a></li>
+                    <!-- Add more categories as needed -->
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#" class="cart-link">
+                    <span class="cart-icon"><i class="fa fa-shopping-cart"></i></span>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+            <div class="login">
+                <a href="#" class="login-link">Login / Register</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <h2>Welcome to Our Store!</h2>
+                <p>Check out our latest products and special offers.</p>
+            </div>
+        </section>
+
+        <section id="electronics" class="categories">
+            <div class="container">
+                <h2>Electronics</h2>
+                <div class="category-list">
+                    <div class="category">
+                        <a href="#" class="category-link">Smartphones</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Laptops</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Headphones</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Cameras</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clothing" class="categories">
+            <div class="container">
+                <h2>Clothing</h2>
+                <div class="category-list">
+                    <div class="category">
+                        <a href="#" class="category-link">T-Shirts</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Jeans</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Dresses</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Jackets</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="books" class="categories">
+            <div class="container">
+                <h2>Books</h2>
+                <div class="category-list">
+                    <div class="category">
+                        <a href="#" class="category-link">Fiction</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Non-Fiction</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Thrillers</a>
+                    </div>
+                    <div class="category">
+                        <a href="#" class="category-link">Self-Help</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container" id="featured-products">
+                <h2>Featured Products</h2>
+                <!-- Product cards will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <!-- Add social media icons and links -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
